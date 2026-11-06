@@ -21,7 +21,14 @@ The scripts work from any current directory. The application locates the databas
 
 ## Use IntelliJ IDEA
 
-Open this project, select JDK 17, and run `MainWindow.main()`. Source files create the Swing components directly; no GUI Designer plugin or `.form` compiler is needed. The module uses the SQLite JDBC library already present in `lib`.
+IntelliJ project configuration (`.idea` and `*.iml`) is local and excluded from Git. On a fresh checkout:
+
+1. Open the project and select JDK 17 or newer as the project SDK.
+2. In Project Structure, mark `src` as Sources and `tests` as Test Sources.
+3. Add `lib/sqlite-jdbc-3.54.1.0.jar` as a module dependency.
+4. Run `./reset-demo.sh` once in the terminal to create the database, then run `MainWindow.main()`.
+
+Source files create the Swing components directly; no GUI Designer plugin or `.form` compiler is needed. The terminal build and run scripts work independently of IntelliJ configuration.
 
 ## Workflows
 

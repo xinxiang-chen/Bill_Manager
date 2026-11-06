@@ -16,13 +16,6 @@
 .DS_Store
 ._*
 
-# Personal IntelliJ state (shared project settings remain versioned)
-/.idea/workspace.xml
-/.idea/tasks.xml
-/.idea/usage.statistics.xml
-/.idea/shelf/
-/.idea/dictionaries/
-/.idea/httpRequests/
-/.idea/dataSources/
-/.idea/dataSources.local.*
-/.idea/uiDesigner.xml
+# Local IntelliJ project configuration
+/.idea/
+*.iml
