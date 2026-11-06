@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Bill Manager" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="MainWindow" />
+    <module name="Bill_Manager" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="VM_PARAMETERS" value="-Duser.language=en -Duser.country=US" />
+    <method v="2"><option name="Make" enabled="true" /></method>
+  </configuration>
+</component>

@@ -1,0 +1,28 @@
+# Build output and logs
+/out/
+/build/
+/dist/
+*.class
+*.log
+
+# Local database; recreate with ./reset-demo.sh
+/RMS.db
+/RMS.db-*
+*.db-journal
+*.db-wal
+*.db-shm
+
+# macOS metadata
+.DS_Store
+._*
+
+# Personal IntelliJ state (shared project settings remain versioned)
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/usage.statistics.xml
+/.idea/shelf/
+/.idea/dictionaries/
+/.idea/httpRequests/
+/.idea/dataSources/
+/.idea/dataSources.local.*
+/.idea/uiDesigner.xml
